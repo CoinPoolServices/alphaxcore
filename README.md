@@ -115,7 +115,7 @@ $ sudo apt-get install apt-transport-https -y
 $ sudo apt-get -y install dotnet-sdk-3.1 git cmake build-essential libssl-dev pkg-config libboost-all-dev libsodium-dev libzmq5
 $ git clone https://github.com/AlphaX-Projects/alphaxcore
 $ cd alphaxcore/src/Alphaxcore
-$ dotnet publish -c Release --framework netcoreapp3.1  -o ../../build
+$ dotnet publish -c Release --framework netcoreapp5.0  -o ../../build
 ```
 
 #### Building on Windows
@@ -125,7 +125,7 @@ Download and install the [.Net Core 3.1 SDK](https://www.microsoft.com/net/downl
 ```dosbatch
 > git clone https://github.com/AlphaX-Projects/alphaxcore
 > cd alphaxcore/src/Alphaxcore
-> dotnet publish -c Release --framework netcoreapp3.1  -o ..\..\build
+> dotnet publish -c Release --framework netcoreapp5.0  -o ..\..\build
 ```
 
 #### Building on Windows - Visual Studio
